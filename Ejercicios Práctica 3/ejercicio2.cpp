@@ -11,7 +11,7 @@ int main ()
 
     cout << "Para realizar los calculos necesito saber el valor del radio del circulo." <<endl <<endl;
 
-    cout << "Cual es el radio del circulo?" << endl;
+    cout << "Cual es el radio del circulo? ";
     cin >> radio;
 
     //Calculos

@@ -12,7 +12,7 @@ int main ()
 
     cout << "Para calcular el total de dinero gastado ingrese los siguientes datos: " <<endl << endl;
 
-    cout << "Nombre del producto : " <<endl;
+    cout << "Nombre del producto: " <<endl;
     getline(cin, nombre);
 
     cout << endl << "Precio del producto: "<< endl << "$";

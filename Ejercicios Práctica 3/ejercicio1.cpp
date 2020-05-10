@@ -15,10 +15,10 @@ int main ()
     cout << "Cual es el primer numero entero?" <<endl;
     cin >> n1;
 
-    cout << "Cual es el segundo numero entero?" <<endl; 
+    cout <<endl << "Cual es el segundo numero entero?" <<endl; 
     cin >> n2;
 
-    cout << "Cual es el tercero numero entero?" <<endl; 
+    cout <<endl << "Cual es el tercero numero entero?" <<endl; 
     cin >> n3;
 
     resultado = ((float) n1+n2+n3)/(3);
