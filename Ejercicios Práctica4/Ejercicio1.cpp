@@ -17,6 +17,7 @@ int main (){
     respuesta = n % m == 0 ? "si es divisible" : "no es divisible";
 
     cout << endl << n << " " << respuesta << " entre " << m;
+    cout << endl << endl;
 
     return 0;
 }

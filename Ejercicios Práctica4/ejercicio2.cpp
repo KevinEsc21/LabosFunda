@@ -14,7 +14,9 @@ int main (){
 
     r = n % 2 == 0 ? " es par" : " es impar";
 
-    cout << endl << "El numero "<< n << r << endl << endl;
+    cout << endl << "El numero "<< n << r;
+    
+    cout << endl << endl;
 
     return 0;
 }

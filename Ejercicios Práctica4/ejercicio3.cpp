@@ -19,5 +19,7 @@ int main (){
         cout << "El numero es cero";
     }
 
+    cout << endl << endl;
+
     return 0;
 }
