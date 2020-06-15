@@ -9,8 +9,12 @@ int main (){
     cout << endl;
     cout << "PROGRAMA QUE INDICA SI UN ANO ES BISIESTO" << endl << endl;
     cout << "Ingrese el ano: ";
-    
     cin >> year;
+    while (year < 0){
+        cout << endl << "No introduzca anos negativos" << endl << endl;
+        cout << "Ingrese el ano: ";
+        cin >> year;
+    }
 
     //Imprimir en pantalla si es bisiesto o no
     if (abisiesto(year) == 0){
